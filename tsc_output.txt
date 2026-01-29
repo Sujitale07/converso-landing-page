@@ -1,0 +1,4 @@
+src/components/UI/Preloader/index.tsx(70,17): error TS2322: Type '(element: HTMLDivElement | null) => HTMLDivElement | null' is not assignable to type 'LegacyRef<HTMLDivElement> | undefined'.
+  Type '(element: HTMLDivElement | null) => HTMLDivElement | null' is not assignable to type '(instance: HTMLDivElement | null) => void | (() => VoidOrUndefinedOnly)'.
+    Type 'HTMLDivElement | null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
+      Type 'null' is not assignable to type 'void | (() => VoidOrUndefinedOnly)'.
