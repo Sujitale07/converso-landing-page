@@ -66,7 +66,7 @@ const BlogSingle = ({ slug }: { slug: string }) => {
             One of the biggest challenges businesses face is managing the volume
             of incoming chats. ConnectaPre solves this by providing intelligent
             routing. Instead of a single number where everyone waits, our
-            plugin detects the visitor's location and availability, sending them
+            plugin detects the visitor&apos;s location and availability, sending them
             directly to the agent who can help them best.
           </p>
           <ul>
