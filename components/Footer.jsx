@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="flex flex-col md:flex-row justify-between w-full gap-10 border-b border-gray-200 pb-6">
                 <div className="md:max-w-114">
                     <a href="#!">
-                        <Image className="h-9 md:h-9.5 w-auto shrink-0" src="/assets/logo.gif" alt="Logo" width={140} height={40} priority fetchPriority="high" />
+                        <Image className="h-9 md:h-9.5 w-auto shrink-0" src="/assets/LOGO.gif" alt="Logo" width={140} height={40} priority fetchPriority="high" />
                     </a>
                     <p className="mt-6">
                         Connectapre is the intelligent WhatsApp Chat widget for WordPress. Smart routing, analytics, and personalization to help you connect with customers better.
