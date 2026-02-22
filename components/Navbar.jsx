@@ -21,7 +21,7 @@ export default function Navbar() {
             <a href="/">
                 <Image className="h-10 md:h-18 w-auto shrink-0" src="/assets/LOGO.gif" alt="Logo" width={300} height={40} priority fetchPriority="high" />
             </a>
-            <div className="hidden items-center md:gap-8 lg:gap-9 md:flex lg:pl-20">
+            <div className="hidden items-center md:gap-8 lg:gap-9 md:flex ">
                 {navLinks.map((link) => (
                     <Link key={link.name} href={link.href} className="hover:text-indigo-600">
                         {link.name}

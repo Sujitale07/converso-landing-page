@@ -14,5 +14,21 @@ export const navLinks = [
     {
         name: "FAQ",
         href: "#faq",
-    }
+    },
+    {
+        name: "Blog",
+        href: "/blog",
+    },
+    {
+        name: "Docs",
+        href: "/docs",
+    },
+    // {
+    //     name: "Integrations",
+    //     href: "/integrations",
+    // },
+    // {
+    //     name: "Changelog",
+    //     href: "/changelog",
+    // }
 ];

@@ -16,15 +16,29 @@ export default function Footer() {
                     <p className="mt-6">WhatsApp is a registered trademark of Meta Platforms, Inc.<br />
 This plugin is not affiliated with, endorsed, or sponsored by Meta or WhatsApp.</p>
                 </div>
-                <div className="flex-1 flex items-start md:justify-end gap-20">
+                <div className="flex-1 grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-20 md:justify-items-end">
                     <div>
                         <h2 className="font-semibold mb-5 text-gray-800">Company</h2>
                         <ul className="space-y-2">
-                            {navLinks.map((link, index) => (
-                                <li key={index}>
-                                    <Link href={link.href} className="hover:text-indigo-600">{link.name}</Link>
-                                </li>
-                            ))}
+                            <li><Link href="/" className="hover:text-indigo-600">Home</Link></li>
+                            <li><Link href="/blog" className="hover:text-indigo-600">Blog</Link></li>
+                            <li><Link href="/changelog" className="hover:text-indigo-600">Changelog</Link></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 className="font-semibold mb-5 text-gray-800">Product</h2>
+                        <ul className="space-y-2">
+                            <li><Link href="#features" className="hover:text-indigo-600">Features</Link></li>
+                            <li><Link href="/integrations" className="hover:text-indigo-600">Integrations</Link></li>
+                            <li><Link href="#pricing" className="hover:text-indigo-600">Pricing</Link></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 className="font-semibold mb-5 text-gray-800">Support</h2>
+                        <ul className="space-y-2">
+                            <li><Link href="/contact" className="hover:text-indigo-600">Contact Us</Link></li>
+                            <li><Link href="#faq" className="hover:text-indigo-600">FAQs</Link></li>
+                            <li><Link href="/docs" className="hover:text-indigo-600">Documentation</Link></li>
                         </ul>
                     </div>
                 </div>

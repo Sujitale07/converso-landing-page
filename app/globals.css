@@ -15,3 +15,16 @@ body {
 button {
     @apply cursor-pointer;
 }
+
+/* Custom Typography for Blog */
+.blog-content h1, .blog-content h2, .blog-content h3 {
+    @apply text-slate-900 font-semibold mb-6 mt-10 tracking-tight;
+}
+.blog-content h1 { @apply text-3xl; }
+.blog-content h2 { @apply text-2xl; }
+.blog-content h3 { @apply text-lg; }
+.blog-content p { @apply text-slate-600 leading-relaxed mb-6 text-sm md:text-base; }
+.blog-content ul { @apply list-disc pl-6 mb-8 space-y-3; }
+.blog-content li { @apply text-slate-600 text-sm md:text-base; }
+.blog-content strong { @apply text-slate-900 font-semibold; }
+.blog-content blockquote { @apply border-l-4 border-indigo-600 bg-indigo-50/30 p-8 rounded-r-xl italic mb-10 text-slate-700 font-medium; }
