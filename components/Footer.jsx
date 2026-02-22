@@ -39,6 +39,7 @@ This plugin is not affiliated with, endorsed, or sponsored by Meta or WhatsApp.<
                             <li><Link href="/contact" className="hover:text-indigo-600">Contact Us</Link></li>
                             <li><Link href="#faq" className="hover:text-indigo-600">FAQs</Link></li>
                             <li><Link href="/docs" className="hover:text-indigo-600">Documentation</Link></li>
+                            <li><Link href="/sitemap.xml" className="hover:text-indigo-600" target="_blank">Sitemap</Link></li>
                         </ul>
                     </div>
                 </div>
