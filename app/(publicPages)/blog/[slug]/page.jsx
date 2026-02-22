@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Calendar, User, Clock, ChevronRight } from "lucide-react";
 import ArticleFeedback from "@/components/ArticleFeedback";
+import SocialShare from "@/components/SocialShare";
 
 // This enables SSG for this dynamic route
 export async function generateStaticParams() {
@@ -119,6 +120,10 @@ export default async function BlogPostPage({ params }) {
                                     </div>
                                     <div className="text-[10px] text-slate-400 font-medium uppercase tracking-wider pl-5">Read Time</div>
                                 </div>
+                            </div>
+
+                            <div className="md:ml-auto">
+                                <SocialShare title={post.title} slug={post.slug} />
                             </div>
                         </div>
                     </header>
